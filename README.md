@@ -26,7 +26,7 @@ with input from a **file**, a **URL (http/https)**, or **pasted text**.
 Requires Python 3.6+ (uses only the standard library).
 
 ```bash
-git clone https://github.com/yourname/xxtea.git
+git clone https://github.com/hamadax2/xxtea.git
 cd xxtea
 Usage
 ----------
@@ -36,7 +36,7 @@ Decrypt
 python3 xxtea_tool.py decrypt dnslite.txt -k "key"
 
 # From a URL
-python3 xxtea_tool.py decrypt https://example.com/dnslite.txt -k "key"
+python3 xxtea_tool.py decrypt https://example.com/encrypted.txt -k "key"
 
 # From pasted base64 text
 python3 xxtea_tool.py decrypt "aPEX2ezxffVM5V4OGsYOhNmcmSzGYNY6..." -k "key"
