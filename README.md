@@ -1,13 +1,11 @@
-# XXTEA Tool (Python port of xxtea.java)
+# XXTEA Tool
 
-A faithful Python port of the XXTEA decrypt/encrypt logic from `xxtea.java`.
+A faithful Python port of the XXTEA decrypt/encrypt 
 Supports decrypting base64‑encoded XXTEA ciphertext and encrypting plaintext,
 with input from a **file**, a **URL (http/https)**, or **pasted text**.
 
 > ⚠️ This is a port of a specific XXTEA implementation that uses the magic
-> constant `DELTA = -1638454863` (not the canonical `0x9E3779B9`). It will only
-> interoperate with data produced by the matching Java code.
-
+> constant `DELTA = -1638454863` (not the canonical `0x9E3779B9`).
 ---
 
 ## Features
@@ -17,7 +15,7 @@ with input from a **file**, a **URL (http/https)**, or **pasted text**.
 - 🌐 Input from **file path**, **URL**, or **direct paste**
 - 💾 Output saved to the **current working directory**
 - 🧪 Built‑in **self‑test** to verify correctness
-- 🔑 Key is UTF‑8 encoded and zero‑padded/truncated to 16 bytes (matches Java)
+- 🔑 Key is UTF‑8 encoded and zero‑padded/truncated to 16 bytes 
 
 ---
 
